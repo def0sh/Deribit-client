@@ -25,6 +25,8 @@ DB_NAME=
 4 Запустить файл schedule.py для получения валюты каждую минуту и записи в БД
 
 5 Для запуска FastApi -  uvicorn backend.main:app --reload
+
+6 OpenApi Swagger http://127.0.0.1:8000/docs
 ```
 
 
