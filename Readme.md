@@ -14,6 +14,12 @@ FastApi , Postgres, asyncio, aiohttp
 
 2 Создать .env файл в корне проекта для конфигурации Postgres
 
+DB_USER=
+DB_PASS=
+DB_HOST=
+DB_PORT=
+DB_NAME=
+
 3 Запустить файл schedule.py для получения валюты каждую минуту и записи в БД
 
 4 pip install -r requirements.txt
