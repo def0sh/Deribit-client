@@ -20,9 +20,9 @@ DB_HOST=
 DB_PORT=
 DB_NAME=
 
-3 Запустить файл schedule.py для получения валюты каждую минуту и записи в БД
+3 pip install -r requirements.txt
 
-4 pip install -r requirements.txt
+4 Запустить файл schedule.py для получения валюты каждую минуту и записи в БД
 
 5 Для запуска FastApi -  uvicorn backend.main:app --reload
 ```
